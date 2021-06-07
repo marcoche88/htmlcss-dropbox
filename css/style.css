@@ -40,8 +40,16 @@ body {
     width: calc(100% / 3);
 }
 
+.w-40 {
+    width: 40%;
+}
+
 .w-50 {
     width: 50%;
+}
+
+.w-60 {
+    width: 60%;
 }
 
 .w-70 {
@@ -87,6 +95,14 @@ a.btn.btn-blue {
     text-decoration: none;
 }
 
+a.btn.btn-white {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
 .bg-blue {
     background-color: rgb(184, 207, 229);
 }
@@ -113,6 +129,10 @@ a.btn.btn-blue {
 
 .font-grey {
     color: grey;
+}
+
+.font-blue {
+    color: rgb(34, 107, 246);
 }
 
 /* menu */
@@ -250,10 +270,6 @@ a.btn.btn-blue {
     margin-bottom: 30px; 
 }
 
-.section1 .tab-content .buy-now a {
-    color: rgb(34, 107, 246);
-}
-
 .section1 .tab-content hr {
     margin-top: 30px;
     margin-bottom: 40px;
@@ -292,4 +308,28 @@ a.btn.btn-blue {
 .section1 .content-enterprise .sales {
     padding-top: 15px;
     padding-bottom: 30px;
+}
+
+/* sezione 2 */
+
+.section2 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.section2 .col.w-60 {
+    padding: 40px;
+}
+
+.section2 img {
+    width: 100%;
+}
+
+.section2 .col.w-40 {
+    padding-top: 70px;
+    padding-left: 10px;
+}
+.section2 p {
+    padding-top: 30px;
+    padding-bottom: 25px;
 }
