@@ -36,6 +36,10 @@ body {
  width: 30%;
 }
 
+.w-33 {
+    width: calc(100% / 3);
+}
+
 .w-50 {
     width: 50%;
 }
@@ -46,6 +50,26 @@ body {
 
 .text-right {
     text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-xl {
+    font-size: 2rem;
+}
+
+.font-l {
+    font-size: 1.5rem;
+}
+
+.font-m {
+    font-size: 0.9rem;
 }
 
 .font-s {
@@ -60,6 +84,35 @@ a.btn.btn-blue {
     background-color: rgb(27, 101, 244);
     color: white;
     padding: 5px 15px;
+    text-decoration: none;
+}
+
+.bg-blue {
+    background-color: rgb(184, 207, 229);
+}
+
+.check.selected {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 4px solid rgb(27, 101, 244);
+    border-radius: 50%;
+}
+
+.check.unselected {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.border-grey {
+    border: 1px solid lightgrey;
+}
+
+.font-grey {
+    color: grey;
 }
 
 /* menu */
@@ -95,7 +148,6 @@ a.btn.btn-blue {
 /* jumbotron */
 
 .jumbotron  {
-    background-color: rgb(184, 207, 229);
     height: 600px;
 }
 
@@ -125,9 +177,92 @@ a.btn.btn-blue {
 
 .jumbotron .arrow-down {
     padding-top: 25px;
-    font-size: 2rem;
 }
 
 .jumbotron img {
     width: 90%;
+}
+
+/* sezione 1 */
+
+.section1 h2 {
+    padding-top: 150px;
+}
+
+.section1 .checks {
+    padding-top: 40px;
+}
+
+.check-text {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: -3px;
+} 
+
+/* .section1 .col {
+    border: 1px solid black;
+    height: 1000px;
+} */
+
+.section1 .tab {
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.section1 .tab-title {
+    border-bottom: 1px solid lightgrey;
+    padding: 5px;
+}
+
+.section1 .tab-content {
+    height: 850px;
+    padding: 0 30px;
+}
+
+.section1 .tab-content h3 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.section1 .tab-content .text-price {
+    padding-top: 5px;
+    padding-bottom: 25px;  
+}
+
+.section1 .tab-content .space {
+    padding: 15px 0;
+}
+
+.section1 .tab-content a.btn {
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px; 
+}
+
+.section1 .tab-content .buy-now a {
+    color: rgb(34, 107, 246);
+}
+
+.section1 .tab-content hr {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 20%;
+}
+
+.section1 .tab-content li {
+    padding-top: 15px;
+    list-style-type: none;
+}
+
+.section1 .tab-content li::before {
+    content: '\f00c';
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+    color: rgb(34, 107, 246);
 }
