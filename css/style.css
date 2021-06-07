@@ -18,16 +18,42 @@ body {
     clear: both;
 }
 
+.container-big {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.container-small {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
 .col {
     float: left;
+}
+
+.w-30 {
+ width: 30%;
 }
 
 .w-50 {
     width: 50%;
 }
 
+.w-70 {
+    width: 70%;
+}
+
 .text-right {
     text-align: right;
+}
+
+.font-s {
+    font-size: 0.8rem;
+}
+
+.font-xs {
+    font-size: 0.7rem;
 }
 
 a.btn.btn-blue {
@@ -59,7 +85,6 @@ a.btn.btn-blue {
 .menu li a {
     color: black;
     text-decoration: none;
-    font-size: 0.8rem;
 }
 
 #logo {
@@ -67,7 +92,42 @@ a.btn.btn-blue {
     vertical-align: middle;
 }
 
+/* jumbotron */
+
 .jumbotron  {
-    background-color: lightseagreen;
-    height: 500px;
+    background-color: rgb(184, 207, 229);
+    height: 600px;
+}
+
+.jumbotron h1 {
+    font-size: 4rem;
+    padding-top: 60px;
+}
+
+.jumbotron .col {
+    padding-top: 40px;
+}
+
+.jumbotron .col.w-30 {
+    padding-right: 25px;
+}
+
+.jumbotron .col.w-70 {
+    padding-left: 30px;
+}
+
+.jumbotron a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.jumbotron .arrow-down {
+    padding-top: 25px;
+    font-size: 2rem;
+}
+
+.jumbotron img {
+    width: 90%;
 }
