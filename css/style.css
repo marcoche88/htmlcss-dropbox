@@ -69,7 +69,7 @@ body {
 }
 
 .font-xl {
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 .font-l {
@@ -318,7 +318,7 @@ a.btn.btn-white {
 }
 
 .section2 .col.w-60 {
-    padding: 40px;
+    padding: 40px 60px 40px 0;
 }
 
 .section2 img {
@@ -332,4 +332,36 @@ a.btn.btn-white {
 .section2 p {
     padding-top: 30px;
     padding-bottom: 25px;
+}
+
+/* sezione 3 */
+
+.section3 {
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+.section3 .row {
+    padding-top: 80px;
+}
+
+.section3 img {
+    width: 100%;
+}
+
+.section3 h3 {
+    padding: 25px 0;
+}
+
+.section3 .col-left {
+    padding-right: 5%;
+}
+
+.section3 .col-center {
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+}
+
+.section3 .col-right {
+    padding-left: 5%;
 }
