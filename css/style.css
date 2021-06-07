@@ -200,18 +200,26 @@ a.btn.btn-blue {
     top: -3px;
 } 
 
-/* .section1 .col {
-    border: 1px solid black;
-    height: 1000px;
-} */
-
-.section1 .tab {
+.section1 .plans {
     margin-top: 40px;
-    margin-right: 40px;
     margin-bottom: 40px;
 }
 
-.section1 .tab-title {
+.section1 .col-left {
+    padding-right: 26px;
+}
+
+.section1 .col-center {
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+.section1 .col-right {
+    padding-left: 26px;
+}
+
+.section1 .tab-title,
+.section1 .title-enterprise {
     border-bottom: 1px solid lightgrey;
     padding: 5px;
 }
@@ -265,4 +273,23 @@ a.btn.btn-blue {
     vertical-align: middle;
     font-weight: 900;
     color: rgb(34, 107, 246);
+}
+
+.section1 .content-enterprise {
+    padding: 25px;
+}
+
+.section1 .col-enterprise .col.w-50 {
+    height: 35px;
+    line-height: 35px;
+}
+
+.section1 .col-enterprise a {
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.section1 .content-enterprise .sales {
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
