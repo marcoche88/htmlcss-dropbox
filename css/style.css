@@ -153,6 +153,13 @@ a.btn.btn-white {
 
 /* menu */
 
+.menu {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
 .menu .col {
     padding: 10px 0;
 }
@@ -184,12 +191,12 @@ a.btn.btn-white {
 /* jumbotron */
 
 .jumbotron  {
-    height: 600px;
+    height: 650px;
 }
 
 .jumbotron h1 {
     font-size: 4rem;
-    padding-top: 60px;
+    padding-top: 120px;
 }
 
 .jumbotron .col {
