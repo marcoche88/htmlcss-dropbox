@@ -10,13 +10,13 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* utilities */
+/********** utilities **********/
 
-.clearfix::after {
-    content: '';
-    display: table;
-    clear: both;
+.border-grey {
+    border: 1px solid lightgrey;
 }
+
+/* container */
 
 .container-big {
     max-width: 80%;
@@ -26,6 +26,14 @@ body {
 .container-small {
     max-width: 70%;
     margin: 0 auto;
+}
+
+/* float */
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .col {
@@ -64,6 +72,8 @@ body {
     width: 400px;
 }
 
+/* text-align */
+
 .text-right {
     text-align: right;
 }
@@ -71,6 +81,8 @@ body {
 .text-center {
     text-align: center;
 }
+
+/* fonts */
 
 .font-bold {
     font-weight: 700;
@@ -96,6 +108,20 @@ body {
     font-size: 0.7rem;
 }
 
+.font-grey {
+    color: grey;
+}
+
+.font-blue {
+    color: rgb(34, 107, 246);
+}
+
+.font-white {
+    color: white;
+}
+
+/* buttons */
+
 a.btn.btn-blue {
     background-color: rgb(27, 101, 244);
     color: white;
@@ -110,6 +136,8 @@ a.btn.btn-white {
     padding: 5px 15px;
     text-decoration: none;
 }
+
+/* background */
 
 .bg-blue {
     background-color: rgb(184, 207, 229);
@@ -127,6 +155,8 @@ a.btn.btn-white {
     border-radius: 50%;
 }
 
+/* radio */
+
 .check.unselected {
     display: inline-block;
     width: 15px;
@@ -135,23 +165,8 @@ a.btn.btn-white {
     border-radius: 50%;
 }
 
-.border-grey {
-    border: 1px solid lightgrey;
-}
 
-.font-grey {
-    color: grey;
-}
-
-.font-blue {
-    color: rgb(34, 107, 246);
-}
-
-.font-white {
-    color: white;
-}
-
-/* menu */
+/********** menu **********/
 
 .menu {
     position: fixed;
@@ -188,10 +203,11 @@ a.btn.btn-white {
     vertical-align: middle;
 }
 
-/* jumbotron */
+/********** jumbotron **********/
 
 .jumbotron  {
     height: 650px;
+    margin-bottom: 150px;
 }
 
 .jumbotron h1 {
@@ -219,17 +235,18 @@ a.btn.btn-white {
 }
 
 .jumbotron .arrow-down {
-    padding-top: 25px;
+    padding-top: 35px;
 }
 
 .jumbotron img {
     width: 90%;
 }
 
-/* sezione 1 */
+/********** sezione 1 **********/
 
-.section1 h2 {
-    padding-top: 150px;
+.section1 {
+    margin-top: 150px;
+    margin-bottom: 60px;
 }
 
 .section1 .checks {
@@ -269,7 +286,7 @@ a.btn.btn-white {
 
 .section1 .tab-content {
     height: 850px;
-    padding: 0 30px;
+    padding: 0 33px;
 }
 
 .section1 .tab-content h3 {
@@ -280,32 +297,6 @@ a.btn.btn-white {
 .section1 .tab-content .text-price {
     padding-top: 5px;
     padding-bottom: 25px;  
-}
-
-.section1 .tab-content .space {
-    padding: 15px 0;
-}
-
-.section1 .text-extra {
-    padding-left: 20px;
-    text-indent: -10px;
-}
-
-.section1 .text-extra::before,
-.section1 .tab-content li::before {
-    font-family: "Font Awesome 5 Free";
-    display: inline-block;
-    padding-right: 5px;
-    vertical-align: middle;
-    font-weight: 900;
-}
-
-.section1 .text-extra.pencil::before {
-    content: '\f303';
-}
-
-.section1 .text-extra.smile::before {
-    content: '\f118';
 }
 
 .section1 .tab-content a.btn {
@@ -323,12 +314,40 @@ a.btn.btn-white {
 
 .section1 .tab-content li {
     padding-top: 15px;
-    padding-left: 16px;
+    padding-left: 18px;
     list-style-type: none;
-    text-indent: -8px;
+    text-indent: -9px;
 }
 
 .section1 .tab-content li::before {
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    padding-right: 5px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.section1 .tab-content .user::before {
+    content: '\f007';
+}
+
+.section1 .tab-content .folder::before {
+    content: '\f07b';
+}
+
+.section1 .tab-content .pencil::before {
+    content: '\f303';
+}
+
+.section1 .tab-content .user-plus::before {
+    content: '\f234';
+}
+
+.section1 .tab-content .smile::before {
+    content: '\f118';
+}
+
+.section1 .tab-content .second-list li::before {
     content: '\f00c';
     color: rgb(34, 107, 246);
 }
@@ -352,7 +371,7 @@ a.btn.btn-white {
     padding-bottom: 30px;
 }
 
-/* sezione 2 */
+/********** sezione 2 **********/
 
 .section2 {
     margin-top: 60px;
@@ -377,7 +396,7 @@ a.btn.btn-white {
     padding-bottom: 25px;
 }
 
-/* sezione 3 */
+/********** sezione 3 **********/
 
 .section3 {
     margin-top: 40px;
@@ -409,7 +428,7 @@ a.btn.btn-white {
     padding-left: 5%;
 }
 
-/* sezione 4 */
+/********** sezione 4 **********/
 
 .section4 {
     margin-top: 150px;
@@ -514,7 +533,7 @@ a.btn.btn-white {
     padding-right: 40px;
 }
 
-/* sezione 5 */
+/********** sezione 5 **********/
 
 .section5 {
     margin-top: 100px;
@@ -543,7 +562,7 @@ a.btn.btn-white {
     font-weight: 900;
 }
 
-/* footer */
+/********** footer **********/
 
 footer {
     margin-top: 100px;
