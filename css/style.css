@@ -56,6 +56,10 @@ body {
     width: 70%;
 }
 
+.w-400px {
+    width: 400px;
+}
+
 .text-right {
     text-align: right;
 }
@@ -263,6 +267,28 @@ a.btn.btn-white {
     padding: 15px 0;
 }
 
+.section1 .text-extra {
+    padding-left: 20px;
+    text-indent: -10px;
+}
+
+.section1 .text-extra::before,
+.section1 .tab-content li::before {
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    padding-right: 5px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.section1 .text-extra.pencil::before {
+    content: '\f303';
+}
+
+.section1 .text-extra.smile::before {
+    content: '\f118';
+}
+
 .section1 .tab-content a.btn {
     display: inline-block;
     width: 100%;
@@ -278,16 +304,13 @@ a.btn.btn-white {
 
 .section1 .tab-content li {
     padding-top: 15px;
+    padding-left: 16px;
     list-style-type: none;
+    text-indent: -8px;
 }
 
 .section1 .tab-content li::before {
     content: '\f00c';
-    font-family: "Font Awesome 5 Free";
-    display: inline-block;
-    padding-right: 3px;
-    vertical-align: middle;
-    font-weight: 900;
     color: rgb(34, 107, 246);
 }
 
@@ -329,6 +352,7 @@ a.btn.btn-white {
     padding-top: 70px;
     padding-left: 10px;
 }
+
 .section2 p {
     padding-top: 30px;
     padding-bottom: 25px;
@@ -364,4 +388,109 @@ a.btn.btn-white {
 
 .section3 .col-right {
     padding-left: 5%;
+}
+
+/* sezione 4 */
+
+.section4 {
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.section4 .container-small.header {
+    padding-right: 480px;
+}
+
+.section4 .container-small.header a {
+    display: inline-block;
+    margin: 30px 0;
+}
+
+.section4 .companies .col.w-50 {
+    height: 200px;
+}
+
+.section4 .companies .w-center {
+    width: calc(100% - 800px);
+}
+
+.section4 .companies .col.w-50 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.section4 .companies .company1 {
+    background-image: url('../img/designit.svg');
+    background-color: rgb(172, 209, 160);
+    border: 10px solid rgb(213, 231, 207);
+}
+
+.section4 .companies .company2 {
+    background-image: url('../img/arizona_state_university.svg');
+    background-color: rgb(89, 20, 43);
+}
+
+.section4 .companies .company3 {
+    background-image: url('../img/university_of_florida.svg');
+    background-color: rgb(60, 147, 201);
+}
+
+.section4 .companies .company4 {
+    background-image: url('../img/topps.svg');
+    background-color: rgb(235, 58, 47);
+}
+
+.section4 .companies .company5 {
+    background-image: url('../img/world_bicycle_relief.svg');
+    background-color: rgb(196, 41, 43);
+}
+
+.section4 .companies .company6 {
+    background-image: url('../img/hearst_corp.svg');
+    background-color: rgb(184, 207, 229);
+}
+
+.section4 .companies .company7 {
+    background-image: url('../img/lonely_planet.svg');
+    background-color: rgb(13, 39, 119);
+}
+
+.section4 .companies .company8 {
+    background-image: url('../img/clear_channel.svg');
+    background-color: rgb(250, 215, 86);
+}
+
+.section4 .companies .col.w-center {
+    height: 400px;
+    background-color: rgb(245, 245, 245);
+    padding: 40px;
+}
+
+.section4 .companies img {
+    width: 20%;
+}
+
+.section4 .companies hr {
+    width: 10%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.section4 .companies .quote {
+    margin-top: 35px;
+}
+
+.section4 .free-test .col {
+    padding: 100px 0;
+}
+
+.section4 .free-test h2 {
+    color: rgb(89, 20, 43);
+}
+
+.section4 .free-test a {
+    border: none;
+    padding-left: 40px;
+    padding-right: 40px;
 }
