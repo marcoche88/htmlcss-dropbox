@@ -356,10 +356,12 @@ a.btn.btn-white:hover {
 
 .section1 .tab-content .user::before {
     content: '\f007';
+    font-weight: 400;
 }
 
 .section1 .tab-content .folder::before {
     content: '\f07b';
+    font-weight: 400;
 }
 
 .section1 .tab-content .pencil::before {
@@ -372,6 +374,7 @@ a.btn.btn-white:hover {
 
 .section1 .tab-content .smile::before {
     content: '\f118';
+    font-weight: 400;
 }
 
 .section1 .tab-content .second-list li::before {
