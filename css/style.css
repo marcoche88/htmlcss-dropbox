@@ -185,17 +185,20 @@ a.btn.btn-white:hover {
     width: 100%;
     background-color: white;
     z-index: 1;
+    height: 70px;
+    line-height: 70px;
     border-bottom: 1px solid lightgray;
 }
 
 .menu .col {
-    padding: 10px 0;
 }
 
+.menu .col,
 .menu .nav-left,
-.menu .nav-right {
-    height: 50px;
-    line-height: 50px;
+.menu .nav-right,
+.menu ul,
+.menu li {
+    height: 100%;
 }
 
 .menu li {
@@ -204,6 +207,11 @@ a.btn.btn-white:hover {
     margin-left: 15px;
     margin-right: 15px;
     vertical-align: middle;
+}
+
+.menu .nav-left li:hover:not(:first-of-type),
+.menu .nav-right li:hover:not(:last-of-type) {
+    border-bottom: 2px solid rgb(27, 101, 244);
 }
 
 .menu li a {
