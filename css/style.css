@@ -78,6 +78,10 @@ body {
 
 /* text-align */
 
+.text-left {
+    text-align: left;
+}
+
 .text-right {
     text-align: right;
 }
@@ -159,6 +163,8 @@ a.btn.btn-white:hover {
     background-color: black;
 }
 
+/* radio */
+
 .check.selected {
     display: inline-block;
     width: 15px;
@@ -166,8 +172,6 @@ a.btn.btn-white:hover {
     border: 4px solid rgb(27, 101, 244);
     border-radius: 50%;
 }
-
-/* radio */
 
 .check.unselected {
     display: inline-block;
@@ -193,12 +197,13 @@ a.btn.btn-white:hover {
 .menu .col,
 .menu .nav-left,
 .menu .nav-right,
-.menu ul,
-.menu li {
+.menu .nav-left > ul,
+.menu .nav-right > ul,
+.menu .dropdown > li {
     height: 100%;
 }
 
-.menu li {
+.menu .dropdown > li {
     display: inline-block;
     list-style-type: none;
     margin-left: 15px;
@@ -206,8 +211,8 @@ a.btn.btn-white:hover {
     vertical-align: middle;
 }
 
-.menu .nav-left li:hover:not(:first-of-type),
-.menu .nav-right li:hover:not(:last-of-type) {
+.menu .nav-left .dropdown > li:hover:not(:first-of-type),
+.menu .nav-right .dropdown > li:hover:not(:last-of-type) {
     border-bottom: 2px solid rgb(27, 101, 244);
 }
 
@@ -219,6 +224,36 @@ a.btn.btn-white:hover {
 #logo {
     height: 20px;
     vertical-align: middle;
+}
+
+/* dropdown menu */
+
+.menu .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.menu .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+}
+
+.menu .dropdown .dropdown-content li {
+    list-style-type: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.menu .dropdown li:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li:hover {
+    background-color: rgb(235, 235, 235);
 }
 
 /********** jumbotron **********/
