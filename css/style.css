@@ -49,7 +49,11 @@ body {
 }
 
 .w-33 {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 40px);
+}
+
+.w-33:nth-of-type(2) {
+    margin: 0 60px;
 }
 
 .w-40 {
@@ -253,7 +257,7 @@ a.btn.btn-white {
     padding-top: 40px;
 }
 
-.check-text {
+.section1 .check-text {
     display: inline-block;
     margin-right: 10px;
     position: relative;
@@ -265,19 +269,6 @@ a.btn.btn-white {
     margin-bottom: 40px;
 }
 
-.section1 .col-left {
-    padding-right: 26px;
-}
-
-.section1 .col-center {
-    padding-right: 14px;
-    padding-left: 14px;
-}
-
-.section1 .col-right {
-    padding-left: 26px;
-}
-
 .section1 .tab-title,
 .section1 .title-enterprise {
     border-bottom: 1px solid lightgrey;
@@ -286,7 +277,7 @@ a.btn.btn-white {
 
 .section1 .tab-content {
     height: 850px;
-    padding: 0 33px;
+    padding: 0 30px;
 }
 
 .section1 .tab-content h3 {
@@ -413,19 +404,6 @@ a.btn.btn-white {
 
 .section3 h3 {
     padding: 25px 0;
-}
-
-.section3 .col-left {
-    padding-right: 5%;
-}
-
-.section3 .col-center {
-    padding-right: 2.5%;
-    padding-left: 2.5%;
-}
-
-.section3 .col-right {
-    padding-left: 5%;
 }
 
 /********** sezione 4 **********/
