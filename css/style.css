@@ -16,6 +16,10 @@ body {
     border: 1px solid lightgrey;
 }
 
+li {
+    list-style-type: none;
+}
+
 /* container */
 
 .container-big {
@@ -204,7 +208,6 @@ a.btn.btn-white:hover {
 
 .menu .dropdown > li {
     display: inline-block;
-    list-style-type: none;
     margin-left: 15px;
     margin-right: 15px;
     vertical-align: middle;
@@ -240,7 +243,6 @@ a.btn.btn-white:hover {
 }
 
 .menu .dropdown .dropdown-content li {
-    list-style-type: none;
     padding-left: 3px;
     padding-right: 3px;
     height: 35px;
@@ -376,7 +378,6 @@ a.btn.btn-white:hover {
 .section1 .tab-content li {
     padding-top: 15px;
     padding-left: 18px;
-    list-style-type: none;
     text-indent: -9px;
 }
 
@@ -614,7 +615,7 @@ a.btn.btn-white:hover {
     color: rgb(89, 20, 43);
 }
 
-.section4 .free-test .btn {
+.section4 .free-test a.btn {
     border: none;
     padding-left: 40px;
     padding-right: 40px;
@@ -680,7 +681,6 @@ footer {
 }
 
 .footer-top li {
-    list-style-type: none;
     padding-bottom: 5px;
 }
 
