@@ -475,42 +475,81 @@ a.btn.btn-white:hover {
 .section4 .companies .company1 {
     background-image: url('../img/designit.svg');
     background-color: rgb(172, 209, 160);
+    border: 10px solid rgb(172, 209, 160);
+}
+
+.section4 .companies .company1:hover {
     border: 10px solid rgb(213, 231, 207);
 }
 
 .section4 .companies .company2 {
     background-image: url('../img/arizona_state_university.svg');
     background-color: rgb(89, 20, 43);
+    border: 10px solid rgb(89, 20, 43)
+}
+
+.section4 .companies .company2:hover {
+    border: 10px solid rgb(122, 62, 82);
 }
 
 .section4 .companies .company3 {
     background-image: url('../img/university_of_florida.svg');
     background-color: rgb(60, 147, 201);
+    border: 10px solid rgb(60, 147, 201);
+}
+
+.section4 .companies .company3:hover {
+    border: 10px solid rgb(111, 161, 192);
 }
 
 .section4 .companies .company4 {
     background-image: url('../img/topps.svg');
     background-color: rgb(235, 58, 47);
+    border: 10px solid rgb(235, 58, 47);
+}
+
+.section4 .companies .company4:hover {
+    border: 10px solid rgb(219, 96, 87);
 }
 
 .section4 .companies .company5 {
     background-image: url('../img/world_bicycle_relief.svg');
     background-color: rgb(196, 41, 43);
+    border: 10px solid rgb(196, 41, 43);
+}
+
+.section4 .companies .company5:hover {
+    border: 10px solid rgb(189, 76, 78);
 }
 
 .section4 .companies .company6 {
     background-image: url('../img/hearst_corp.svg');
     background-color: rgb(184, 207, 229);
+    border: 10px solid rgb(184, 207, 229);
+}
+
+.section4 .companies .company6:hover {
+    border: 10px solid rgb(226, 234, 241);
 }
 
 .section4 .companies .company7 {
     background-image: url('../img/lonely_planet.svg');
     background-color: rgb(13, 39, 119);
+    border: 10px solid rgb(13, 39, 119);
+}
+
+.section4 .companies .company7:hover {
+    border: 10px solid rgb(55, 67, 104);
 }
 
 .section4 .companies .company8 {
     background-image: url('../img/clear_channel.svg');
     background-color: rgb(250, 215, 86);
+    border: 10px solid rgb(250, 215, 86);
+}
+
+.section4 .companies .company8:hover {
+    border: 10px solid rgb(255, 236, 165);
 }
 
 .section4 .companies .col.w-center {
