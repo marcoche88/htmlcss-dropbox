@@ -132,6 +132,10 @@ li {
     color: white;
 }
 
+.font-bordeaux {
+    color: rgb(89, 20, 43);
+}
+
 /* buttons */
 
 a.btn.btn-blue {
@@ -169,20 +173,19 @@ a.btn.btn-white:hover {
 
 /* radio */
 
-.check.selected {
+.check {
     display: inline-block;
     width: 15px;
     height: 15px;
-    border: 4px solid rgb(27, 101, 244);
     border-radius: 50%;
 }
 
+.check.selected {
+    border: 4px solid rgb(27, 101, 244);
+}
+
 .check.unselected {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
     border: 1px solid grey;
-    border-radius: 50%;
 }
 
 /********** menu **********/
@@ -526,7 +529,7 @@ a.btn.btn-white:hover {
 .section4 .companies .company2 {
     background-image: url('../img/arizona_state_university.svg');
     background-color: rgb(89, 20, 43);
-    border: 10px solid rgb(89, 20, 43)
+    border: 10px solid rgb(89, 20, 43);
 }
 
 .section4 .companies .company2:hover {
@@ -611,10 +614,6 @@ a.btn.btn-white:hover {
     padding: 100px 0;
 }
 
-.section4 .free-test h2 {
-    color: rgb(89, 20, 43);
-}
-
 .section4 .free-test a.btn {
     border: none;
     padding-left: 40px;
@@ -650,13 +649,15 @@ a.btn.btn-white:hover {
     font-weight: 900;
 }
 
+/* hidden text */
+
 .section5 .hidden {
     display: none;
+    margin-top: 20px;
 }
 
 .section5 .faq:hover .hidden {
     display: block;
-    margin-top: 20px;
 }
 
 .section5 .faq:hover .col.w-30::before {
@@ -689,12 +690,16 @@ footer {
     color: white;
 }
 
+.footer-top li a:hover {
+    text-decoration: underline;
+}
+
 .footer-bottom {
     padding-bottom: 40px;
 }
 
 .footer-bottom hr {
-    width: 7%;
+    width: 5%;
 }
 
 .footer-bottom .lang {
